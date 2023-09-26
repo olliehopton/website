@@ -1,0 +1,40 @@
+*{
+    background-color: lightgrey;
+}
+
+
+* {
+    text-align: center;
+    color: black;
+    font-family: sans-serif
+}
+.tabs {
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tabs {
+    overflow: hidden;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: lightgray;
+}
+.tabs button {
+    text-align: center;
+    background-color: inherit;
+    float: left;
+    border: 2px solid black;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+}
+.tabs button:hover{
+    background-color: dark gray;
+}
+.tabs button.active{
+    background-color: black;
+}
+.tabcontent{
+    display: none;
+    padding: 6px 12px;;
+    border-top: none;
+}
